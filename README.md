@@ -8,7 +8,7 @@
 
 • [_Jaydip Dey_](https://www.github.com/jaydip1235)
 
-## Tech Stack and libraries used
+## Tech Stack and libraries used :
 
  • React
 
@@ -27,14 +27,14 @@
  • Canvas API
 
 ##
-## Branch info
+## Branch info :
  • Master branch : Alpha website code.
 
  • Game branch : Dali Run and Gun Shooter Game code. 
  
  ##
 
-## How to run locally
+## How to run locally :
 • Open the terminal.
 
 • Type "git clone https://github.com/ArchanJS/Alpha_Alpha.git".
@@ -47,7 +47,7 @@
 
 ##
 
-## What problems we faced and how we overcame
+## What problems we faced and how we overcame :
  * While building the game logic we were facing some logical error that we fixed by doing console.log in the required position to see output of various variables.
  
  * We were facing some scrolling issues while using I-Frames which we solved by manipulating overflow property of css and by using scrolling:no in Iframe component.
@@ -60,7 +60,7 @@
 
 ###
 
-## What we learnt building this website
+## What we learnt building this website :
 
 * Use of Iframes in React.
 
@@ -72,4 +72,4 @@
 
 ##
 
-## Note: Dali Go and Gun Shooter, both games are hosted independently on netlify and are used in the main website using iframe.
+## Note : Dali Go and Gun Shooter, both games are hosted independently on netlify and are used in the main website using iframe.
