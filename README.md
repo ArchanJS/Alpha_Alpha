@@ -3,6 +3,11 @@
 
 ## Website link : https://alpha-money-heist.herokuapp.com
 
+## Developers :
+• [_Archan Banerjee_](https://www.github.com/ArchanJS)
+
+• [_Jaydip Dey_](https://www.github.com/jaydip1235)
+
 ## Tech Stack and libraries used
 
  • React
