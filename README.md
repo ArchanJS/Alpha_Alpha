@@ -1,70 +1,70 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Theme : Money Heist
 
-## Available Scripts
+## Website link : https://alpha-money-heist.herokuapp.com
 
-In the project directory, you can run:
+## Tech Stack and libraries used
 
-### `npm start`
+ • React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ • Bootstrap 5
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ • animate.css
 
-### `npm test`
+ • AOS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ • HTML
 
-### `npm run build`
+ • CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ • Javascript
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ • Canvas API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##
+## Branch info
+ • Master branch : Alpha website code.
 
-### `npm run eject`
+ • Game branch : Dali Run and Gun Shooter Game code. 
+ 
+ ##
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## How to run locally
+• Open the terminal.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+• Type "git clone https://github.com/ArchanJS/Alpha_Alpha.git".
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+• cd into the folder type "npm install" in the terminal.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+• Type "npm start" on the terminal.
 
-## Learn More
+• App starts running on http://localhost:3000/ or any other port no. if port 3000 is busy.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## What problems we faced and how we overcame
+ * While building the game logic we were facing some logical error that we fixed by doing console.log in the required position to see output of various variables.
+ 
+ * We were facing some scrolling issues while using I-Frames which we solved by manipulating overflow property of css and by using scrolling:no in Iframe component.
+  
+ * We were facing issues related to responsiveness of the website that was solved by using relative units and bootstrap media queries wherever required.
 
-### Code Splitting
+ * Initially the loading time of the website was large which was fixed by reducing heavy animations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ * While working with ParticleJS, we faced some issues regarding responsiveness. We had to customize the number of particles according to the height and width of the screen to fix that.
 
-### Analyzing the Bundle Size
+###
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## What we learnt building this website
 
-### Making a Progressive Web App
+* Use of Iframes in React.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Implementing audio functionality in React.
 
-### Advanced Configuration
+* Use of canvas API and its effective utilization.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* To work efficiently in teams within a stipulated time.
 
-### Deployment
+##
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Note: Dali Go and Gun Shooter, both games are hosted independently on netlify and are used in the main website using iframe.
